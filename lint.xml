@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="NewApi">
+        <ignore path="src\tk\sweetvvck\classinfo\MainActivity.java" />
+    </issue>
+    <issue id="SetJavaScriptEnabled">
+        <ignore path="src\tk\sweetvvck\classinfo\WebMainActivity.java" />
+    </issue>
+    <issue id="UseSparseArrays">
+        <ignore path="src\tk\sweetvvck\classinfo\MainActivity.java" />
+    </issue>
+</lint>
